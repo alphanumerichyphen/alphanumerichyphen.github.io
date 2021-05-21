@@ -14,13 +14,16 @@ hr {
   border-style: dotted none none;
   border-color: grey;
   border-width: thick;
-  width: 7%;
+  margin: 100px auto;
+  opacity: 0.7;
+  width: 14%;
 }
 
 h1 {
-  color: #00adb5;
-  font-size: 80px;
+  color: #aad8d3;
+  font-size: 4vw;
   font-family: 'Kaushan Script', cursive;
+  margin: 0 auto;
 }
 
 h2 {
@@ -29,17 +32,16 @@ h2 {
   font-size: 2.5rem;
 }
 
-h2:hover .pro {
-  background-color: #fdfaf6;
-}
-
 .sub {
-  font-weight: normal;
+  color: #aad8d3;
+  font-size: 2.2vw;
+  margin: 5.5vw auto 0;
 }
 
 h3 {
   font-family: 'KoHo', sans-serif;
 }
+
 
 /*****************************************************************************/
 
@@ -53,44 +55,55 @@ h3 {
 }
 
 .Me-text {
+  border: 3px solid #EAF6F6;
+  /* background-color: rgba(234, 246, 246, .1); */
+  padding: 3.5vw;
   position: absolute;
-  top: 250px;
-  left: 550px;
+  top: 12vw;
+  left: 26.1vw;
+}
+
+.pro {
+  transition: text-decoration 0.2s;
+}
+
+.Me-text:hover .pro {
+  text-decoration: underline;
+  text-decoration-color: #EAF6F6;
 }
 
 .top-cloud {
   position: absolute;
-  top: 150px;
-  right: 500px;
+  top: 14%;
+  right: 20%;
 }
 
 .bottom-cloud {
   position: absolute;
-  top: 480px;
-  left:350px;
+  top: 45%;
+  left:18%;
 }
 
 /*****************************************************************************/
 
-/* .middle-container {
-
-} */
+.middle-container {
+  line-height: 2;
+}
 
 .penspin {
   float: left;
-  margin-right: 50px;
+  margin-right: 2vw;
   width: 25%;
 }
 
 .bball {
   float: right;
-  margin-left: 50px;
+  margin-left: 2vw;
   width: 25%
 }
 
 .skill-row {
   display: inline-block;
-  line-height: 2;
   margin: 70px auto;
   text-align: left;
   width: 60%;
@@ -102,12 +115,25 @@ h3 {
   background-color: #393e46;
   line-height: 2;
   margin-top: 50px;
-  padding: 100px;
+  padding: 50px;
 }
 
 .footer-link {
   color: #00adb5;
-  margin: 50px;
+  font-family: 'KoHo', sans-serif;
+  font-size: 130%;
+  margin: 70px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.c {
+  font-size: 120%;
+  margin-top: 50px;
+  margin-bottom: 0;
+
 }
 
 button {
@@ -116,7 +142,7 @@ button {
   cursor: pointer;
   font: inherit;
   line-height: 1;
-  margin: 0.5em;
+  margin: 2em auto 0.5em auto;
   padding: 1em 2em;
 }
 
